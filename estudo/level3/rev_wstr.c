@@ -1,14 +1,14 @@
 #include <unistd.h>
 
-int main(int ac, char **av)
+int	main(int ac, char **av)
 {
     int i;
     int start;
     int end;
 
+    i = 0;
     if (ac == 2)
     {
-        i = 0;
         while (av[1][i])
             i++;
         i--;
